@@ -1,0 +1,94 @@
+
+.ds-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background-color 150ms ease,
+              border-color 150ms ease,
+              color 150ms ease;
+}
+
+.ds-button--sm {
+  min-height: 32px;
+  padding: 4px 12px;
+}
+
+.ds-button--md {
+  min-height: 40px;
+  padding: 8px 16px;
+}
+
+.ds-button--lg {
+  min-height: 48px;
+  padding: 12px 24px;
+}
+
+/* Primary */
+.ds-button--primary {
+  background-color: #2563EB;
+  color: #FFFFFF;
+}
+
+.ds-button--primary:hover:not(:disabled) {
+  background-color: #1D4ED8;
+}
+
+/* Secondary */
+.ds-button--secondary {
+  background-color: #FFFFFF;
+  color: #1D4ED8;
+  border-color: #CBD5E1;
+}
+
+.ds-button--secondary:hover:not(:disabled) {
+  background-color: #F1F5F9;
+}
+
+/* Tertiary */
+.ds-button--tertiary {
+  background-color: transparent;
+  color: #1D4ED8;
+}
+
+.ds-button--tertiary:hover:not(:disabled) {
+  background-color: #F1F5F9;
+}
+
+/* Destructive */
+.ds-button--destructive {
+  background-color: #B91C1C;
+  color: #FFFFFF;
+}
+
+.ds-button--destructive:hover:not(:disabled) {
+  background-color: #991B1B;
+}
+
+/* Interaction states */
+.ds-button:focus-visible {
+  outline: 3px solid #2563EB;
+  outline-offset: 3px;
+}
+
+.ds-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.ds-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-button {
+    transition: none;
+  }
+}
