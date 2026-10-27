@@ -24,6 +24,21 @@ The objective is to create a consistent, reusable and accessible foundation for 
 - Cards, tables and data presentation
 - Design tokens for colour, typography and spacing
 
+- ## Colour Palette
+
+Initial colour tokens for the enterprise design system.
+
+| Token | Preview | HEX |
+|---|---|---|
+| Primary 500 | ![#2563EB](https://placehold.co/80x24/2563EB/2563EB.png) | `#2563EB` |
+| Primary 600 | ![#1D4ED8](https://placehold.co/80x24/1D4ED8/1D4ED8.png) | `#1D4ED8` |
+| Primary 700 | ![#1E40AF](https://placehold.co/80x24/1E40AF/1E40AF.png) | `#1E40AF` |
+| Neutral 900 | ![#0F172A](https://placehold.co/80x24/0F172A/0F172A.png) | `#0F172A` |
+| Neutral 50 | ![#F8FAFC](https://placehold.co/80x24/F8FAFC/F8FAFC.png) | `#F8FAFC` |
+| Neutral 500 | ![#64748B](https://placehold.co/80x24/64748B/64748B.png) | `#64748B` |
+| Success | ![#15803D](https://placehold.co/80x24/15803D/15803D.png) | `#15803D` |
+| Error | ![#B91C1C](https://placehold.co/80x24/B91C1C/B91C1C.png) | `#B91C1C` |
+
 ## Project Status
 
 Work in progress — documentation, components and interactive examples will be added progressively.
