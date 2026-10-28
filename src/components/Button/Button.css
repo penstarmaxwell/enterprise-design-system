@@ -5,11 +5,11 @@
   justify-content: center;
   gap: 8px;
   border: 1px solid transparent;
-  border-radius: 8px;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.5;
+  border-radius: var(--radius-md);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
   cursor: pointer;
   transition: background-color 150ms ease,
               border-color 150ms ease,
@@ -18,27 +18,27 @@
 
 .ds-button--sm {
   min-height: 32px;
-  padding: 4px 12px;
+  padding: var(--spacing-1) var(--spacing-4);
 }
 
 .ds-button--md {
   min-height: 40px;
-  padding: 8px 16px;
+  padding: var(--spacing-2) var(--spacing-6);
 }
 
 .ds-button--lg {
   min-height: 48px;
-  padding: 12px 24px;
+  padding: var(--spacing-3) var(--spacing-8);
 }
 
 /* Primary */
 .ds-button--primary {
-  background-color: #2563EB;
-  color: #FFFFFF;
+  background-color: var(--color-primary-500);
+  color: var(--color-neutral-0);
 }
 
 .ds-button--primary:hover:not(:disabled) {
-  background-color: #1D4ED8;
+  background-color: var(--color-primary-600);
 }
 
 /* Secondary */
@@ -53,19 +53,31 @@
 }
 
 /* Tertiary */
+/* Secondary Button */
+.ds-button--secondary {
+  background-color: var(--color-neutral-0);
+  color: var(--color-primary-600);
+  border-color: var(--color-neutral-300);
+}
+
+.ds-button--secondary:hover:not(:disabled) {
+  background-color: var(--color-neutral-100);
+}
+
+/* Tertiary Button */
 .ds-button--tertiary {
   background-color: transparent;
-  color: #1D4ED8;
+  color: var(--color-primary-600);
 }
 
 .ds-button--tertiary:hover:not(:disabled) {
-  background-color: #F1F5F9;
+  background-color: var(--color-neutral-100);
 }
 
-/* Destructive */
+/* Destructive Button */
 .ds-button--destructive {
-  background-color: #B91C1C;
-  color: #FFFFFF;
+  background-color: var(--color-error);
+  color: var(--color-neutral-0);
 }
 
 .ds-button--destructive:hover:not(:disabled) {
@@ -74,8 +86,8 @@
 
 /* Interaction states */
 .ds-button:focus-visible {
-  outline: 3px solid #2563EB;
-  outline-offset: 3px;
+  outline: 3px solid var(--color-primary-700);
+  outline-offset: 4px;
 }
 
 .ds-button:active:not(:disabled) {

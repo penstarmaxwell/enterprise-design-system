@@ -1,0 +1,53 @@
+:root {
+  /* Primary colours */
+  --color-primary-500: #2563EB;
+  --color-primary-600: #1D4ED8;
+  --color-primary-700: #1E40AF;
+
+  /* Neutral colours */
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-50: #F8FAFC;
+  --color-neutral-100: #F1F5F9;
+  --color-neutral-300: #CBD5E1;
+  --color-neutral-500: #64748B;
+  --color-neutral-700: #334155;
+  --color-neutral-900: #0F172A;
+
+  /* Semantic colours */
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-error: #B91C1C;
+  --color-info: #0369A1;
+
+    /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Typography */
+--font-family-base: "Inter", Arial, sans-serif;
+
+--font-size-sm: 14px;
+--font-size-base: 16px;
+--font-size-lg: 18px;
+--font-size-xl: 20px;
+--font-size-2xl: 24px;
+--font-size-3xl: 30px;
+
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+
+--line-height-tight: 1.2;
+--line-height-normal: 1.5;
+}

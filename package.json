@@ -1,0 +1,37 @@
+{
+  "name": "enterprise-design-system",
+  "version": "1.0.0",
+  "description": "A design-led exploration of scalable UI components, design tokens and accessible interaction patterns for complex enterprise applications.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "dev": "vite",
+  "build": "tsc --noEmit && vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penstarmaxwell/enterprise-design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/penstarmaxwell/enterprise-design-system/issues"
+  },
+  "homepage": "https://github.com/penstarmaxwell/enterprise-design-system#readme",
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
